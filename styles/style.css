@@ -54,6 +54,9 @@ background-color: #222222 ;
 /* header style */
 .banner-title{
   color: rgb(255, 255, 255);
+  /* width: 599.05px;
+  height: 440px; */
+  border: 2px solid green;
   font-size: 4rem;
   font-weight: 700;
   line-height: 120%;
@@ -61,7 +64,18 @@ background-color: #222222 ;
 
 .section-container{
 
+
+
+
 }
+.imgage-container{
+  width: 349px;
+  height: 580px;
+  border: 2px solid red;
+
+}
+
+
 
 .btn-3{
   width: 224px;
@@ -107,6 +121,7 @@ align-items: center;
 .navbar, .banner{
   max-width: 90%;
   margin: 0 auto;
+  border: 2px solid red;
 
  
 
