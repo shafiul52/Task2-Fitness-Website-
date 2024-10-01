@@ -1,0 +1,53 @@
+/* inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.brand-name{
+    font-style: italic;
+    color: #E6533C;
+    font-size: 24px;
+    font-weight: 800px;
+}
+
+/* shared Style */
+ .display-flex{
+  display: flex;
+ }
+.text-gray{
+  color:rgba(255, 255, 255, 0.5); 
+}
+
+
+.bg-light{
+background-color: #222222 ;
+}
+/* header style */
+
+/* navbar related  style */
+
+.navbar{
+justify-content: space-between;
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 47px;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400px;
+  color: rgb(255, 255, 255);
+
+}
+
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
