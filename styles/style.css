@@ -10,8 +10,10 @@
 .brand-name{
     font-style: italic;
     color: #E6533C;
-    font-size: 24px;
-    font-weight: 800px;
+    font-size: 2rem;
+    font-weight: 700px;
+    justify-content: center;
+    
 }
 
 /* shared Style */
@@ -26,28 +28,86 @@
 .bg-light{
 background-color: #222222 ;
 }
+.btn-primary{
+    width: 92px;
+    height: 38px;
+    font-weight: 600;
+    border-radius: 40px;
+    background: rgb(230, 83, 60);
+    color:  rgb(255, 255, 255);
+    justify-content: center;
+}
+
+
+#second-btn{
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  font-size: 1.2rem;
+ background: rgb(230, 83, 60);
+ justify-content: center;
+ color:  rgb(255, 255, 255);
+ margin-right: 12px;
+
+}
+
 /* header style */
+.banner-title{
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.section-container{
+
+}
+
+.btn-3{
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+ justify-content: center; 
+ font-size: 1.2rem;
+ box-sizing: border-box;
+ border: 1px solid rgb(255, 255, 255);
+ border-radius: 42px;
+ background-color: transparent;
+ color: rgb(255, 255, 255);
+
+ 
+}
 
 /* navbar related  style */
 
 .navbar{
 justify-content: space-between;
+align-items: center;
+
+
+
 }
 
 .nav-item{
   list-style: none;
   margin-right: 47px;
+
 }
+
+
 
 .nav-link{
   text-decoration: none;
   font-size: 18px;
   font-weight: 400px;
   color: rgb(255, 255, 255);
-
+  
 }
 
 .navbar, .banner{
-  max-width: 1440px;
+  max-width: 90%;
   margin: 0 auto;
+
+ 
+
 }
