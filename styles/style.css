@@ -17,6 +17,7 @@
 }
 
 /* shared Style */
+
  .display-flex{
   display: flex;
  }
@@ -27,6 +28,7 @@
 
 .bg-light{
 background-color: #222222 ;
+
 }
 .btn-primary{
     width: 92px;
@@ -36,6 +38,7 @@ background-color: #222222 ;
     background: rgb(230, 83, 60);
     color:  rgb(255, 255, 255);
     justify-content: center;
+    border: 0px;
 }
 
 
@@ -45,8 +48,10 @@ background-color: #222222 ;
   border-radius: 42px;
   font-size: 1.2rem;
  background: rgb(230, 83, 60);
+ outline: none;
  justify-content: center;
  color:  rgb(255, 255, 255);
+ border: 0px;
  margin-right: 12px;
 
 }
@@ -58,15 +63,19 @@ background-color: #222222 ;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
+  /* max-width: 100%; */
+  max-width: 1440px;
+  height: 715px;
+  border: 2px solid red;
   gap: 71px;
   background-color: #222222;
+
 
 }
 
 /* content related styles */
 .content-container{
-  max-width: ;
+  /* max-width: 100% ; */
   width: 599.05px;
   height: 440px;
   /* border: 2px solid green; */
@@ -80,12 +89,19 @@ background-color: #222222 ;
   line-height: 120%;
 }
 
+
+
+
 /* image related Style */
 .image-container{
   width: 349px;
   height: 580px;
    margin-left: 115px;
    /* border: 2px solid red; */
+}
+
+.fitbody-image{
+  /* width: 100%; */
 }
 
 .btn-3{
@@ -121,14 +137,75 @@ align-items: center;
 
 .nav-link{
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 400px;
   color: rgb(255, 255, 255);
   
 }
 
-.navbar, .banner{
+.navbar, .banner { 
   max-width: 80%;
+  margin: 0 auto; 
+}
+
+
+/* habits- container  related Styles  start  */
+#card-box{
+width: 587px;
+margin: 50px auto;
+border: 2px solid slateblue;
+/* margin-top: 100px; */
+}
+
+.card-box{
+  width: 1044px;
+  height: 452px;
   margin: 0 auto;
-  /* border: 2px solid red; */
+  margin-bottom: 80px;
+
+}
+
+
+.title-habits h3 {
+  width: 671px;
+  height: 110px;
+  color: rgb(255, 255, 255);
+  border: 2px solid yellow;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 3rem;
+  font-weight: 700;
+ margin-bottom: 30px;
+
+}
+.gym{
+  width: 671px;
+  height: 48px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.container-habits{
+margin-bottom: 40px;
+
+}
+.card{
+  max-width:231px;
+}
+
+
+
+
+
+
+/* Responsive Media query */
+
+@media screen and (max-width: 576px){
+  .container,
+  .navbar,
+  .nav-links,
+  .image-container{
+    flex-direction: column;
+  }
 }
