@@ -167,7 +167,8 @@ border: 2px solid slateblue;
   margin: 0 auto ;
   margin-bottom: 10px;
   margin-top: 0px;
-  /* border: 2px solid red; */
+  border: 2px solid red;
+  color: rgb(34, 34, 34);
 
 }
 
@@ -227,19 +228,45 @@ width: 231px;
   margin: 0 auto;
 
 }
-.fitness-info{
-   text-align: center;
-   justify-content: center;
-   margin: 0 auto;
-   margin-top: 100px;
+
+ /* run container related style start  */
+.Run-container{
+  max-width: 1060px;
+  height: 371px;
+  border-bottom: 150px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* border: 2px solid blue; */
+  border-radius: 18px;
+  background-color: #403F3B;
+}
+
+.run-content{
+  width: 443px;
+height: 290px;
+margin-left: 110px;
+margin: 62px 0px;
+/* border: 2px solid red; */
+
+}
+.run-content h1{   
+ font-size: 3rem;
+font-weight: 800;
+line-height: 120%;
+
 }
 
 
 
-  /* .card .man{
-    text-align: center;
+.marton-image img{
+  width: 366px;
+  /* height: 290px; */
+  /* border: 2px solid green; */
+  margin-left: 115px;
+  border-radius: 18px;
   }
-   */
 
 
 
