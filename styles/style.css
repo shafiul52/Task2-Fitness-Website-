@@ -65,6 +65,7 @@ background-color: #222222 ;
 }
 
 
+
 /* Shared Style Ended */
 
 
@@ -447,6 +448,119 @@ td,th{
 
  /* BMI Styles related end  */
 
+
+ /* Our Teams Related Section Start  */
+
+
+ .Our-Teams{
+   text-align: center;
+   /* border: 2px solid goldenrod; */
+ 
+
+ }
+
+.Our-Teams h1{
+  font-size: 2.50rem;
+  font-weight: 400;
+  margin-top: 15px;
+
+}
+
+
+
+
+
+.Teams{
+  width: 1060px;
+  height: 782px;
+  /* border: 2px solid red; */
+  /* margin: 0 auto; */
+
+
+}
+
+.Teams-images-container{
+      display: grid;
+      width: 1060px;
+      height: 604px;
+      grid-template-columns: repeat(3,1fr);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      gap: 20px;
+      margin: 0 20px;
+
+}
+
+
+.Teams-images-container img{
+      width: 326.67px;
+      height: 272px;
+      position: cover;
+      border-radius: 20px;
+      background: rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+
+
+
+
+ /* Our Teams Related Section End  */
+
+
+
+ .photo-container {
+  position: relative;
+  display: grid;
+  width: 326.67px;
+  height: 272px;
+
+
+}
+
+
+.photo-container img {
+  display: block;
+  width: 100%; /* আপনার ইমেজের আকার অনুযায়ী নির্ধারণ করুন */
+  height: 0 auto;
+}
+
+
+.text-overlay {
+  position: absolute;
+  top:10px; 
+  left:10px;
+  color:yellow; 
+  padding: 10px;
+  border-radius: 5px; 
+}
+
+.text-overlay h3 {
+  margin: 0;
+}
+
+.text-overlay p {
+  margin: 5px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Media query */
 
 @media screen and (max-width: 576px){
@@ -456,4 +570,11 @@ td,th{
   .image-container{
     flex-direction: column;
   }
+
+   .card-box.image-box .container-habits {
+    flex-direction: column;
+   }
+
+
+
 }
