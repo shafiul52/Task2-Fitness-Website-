@@ -105,7 +105,8 @@ background-color: #222222 ;
 
 
 
-/* image related Style */
+/*  First Section image in and Two button related Style Start  */
+
 .image-container{
   width: 349px;
   height: 580px;
@@ -113,9 +114,74 @@ background-color: #222222 ;
    /* border: 2px solid red; */
 }
 
-.fitbody-image{
-  /* width: 100%; */
+
+#circle-btn{
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border: none;
+
 }
+
+.Tutor-btn{
+
+  width: 206px;
+  height: 96px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  border: none;
+  align-items: center; 
+  justify-content: center;
+  
+}
+
+.workout-5{
+
+  width: 206px;
+  height: 96px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  border: none;
+  align-items: center; 
+  justify-content: center;
+  margin-left: 180px;
+  margin-top: -398px;
+
+
+}
+
+ .workout-btn{
+
+  font-size: 24px;
+  font-weight: 900;
+  width: 116px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+#Tutor-num{
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+   border: none;
+  
+}
+
+/*  First Section image in and Two button related Style End  */
+
+
+
 
 .btn-3{
       width: 224px;
@@ -379,6 +445,7 @@ td,th{
   background: rgba(255, 255, 255, 0.1);
 }
 
+ /* BMI Styles related end  */
 
 /* Responsive Media query */
 
