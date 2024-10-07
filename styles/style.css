@@ -474,7 +474,7 @@ td,th{
   width: 1060px;
   height: 782px;
   /* border: 2px solid red; */
-  /* margin: 0 auto; */
+  margin: 0 auto;
 
 
 }
@@ -513,6 +513,9 @@ td,th{
 
 
 
+
+
+/* 
  .photo-container {
   position: relative;
   display: grid;
@@ -520,13 +523,13 @@ td,th{
   height: 272px;
 
 
-}
+} */
 
 
 .photo-container img {
-  display: block;
-  width: 100%; /* আপনার ইমেজের আকার অনুযায়ী নির্ধারণ করুন */
-  height: 0 auto;
+  /* display: block;
+  width: 100%;
+  height: 0 auto; */
 }
 
 
@@ -546,14 +549,96 @@ td,th{
 .text-overlay p {
   margin: 5px 0 0;
 }
+ /* fitness Footer Related Style  Start  */
+
+.Fitness-footer-Container{
+    width: 1440px;
+    height: 489px;
+    background-color:  #403F3B;
+    /* border: 2px solid green; */
+
+}
 
 
 
 
 
+.heading-container{
+  width: 1059px;
+  height: 249px;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  /* margin-top: 50px ; */
+  margin-left: 135px;
+  /* margin: 0 auto; */
+}
+
+
+.first-contianer-footer{
+  width: 443px;
+  height: 176px;
+  /* border: 2px solid gold; */
+}
+
+.Second-Container-footer {
+
+  width: 181px;
+  height: 249px;
+  /* border: 2px solid pink; */
+
+}
+
+
+.small-footer-conntainer{
+  width: 181px;
+  height: 172px;
+  /* border: 2px solid yellowgreen; */
+
+
+}
+.third-Container-footer{
+  width: 181px;
+  height: 249px;
+  /* border: 2px solid deeppink; */
+
+}
+
+
+.small-2-footer-conntainer{
+  width: 165px;
+  height: 172px;
+  /* border: 2px solid blue; */
+
+}
 
 
 
+.All-Reserverd-container{
+  width: 318px;
+  height: 24px;
+
+  margin-left: 558px;
+  margin-top: -0px;
+
+ /* border: 2px solid darkmagenta; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.line{
+
+      width: 1059.5px;
+      height: 0;
+      border: 2px solid rgba(255, 255, 255, 0.1);
+   
+} 
+
+
+
+ /* fitness Footer Related Style  End   */
 
 
 
